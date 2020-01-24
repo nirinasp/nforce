@@ -1,8 +1,8 @@
 {
-  "author": "Kevin O'Hara <kevnohara80@gmail.com> (http://kevinmohara.com)",
-  "name": "nforce",
+  "author": "Nirina <nirinarazafimahafaly@gmail.com>",
+  "name": "spnforce",
   "description": "nforce is a REST API wrapper for force.com, database.com, and salesforce.com",
-  "version": "1.12.2",
+  "version": "1.12.3",
   "keywords": [
     "salesforce",
     "salesforce.com",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/kevinohara80/nforce.git"
+    "url": "git://github.com/nirinasp/nforce.git"
   },
   "main": "index.js",
   "dependencies": {
@@ -38,7 +38,7 @@
     "node": ">= 0.12"
   },
   "bugs": {
-    "url": "http://github.com/kevinohara80/nforce/issues"
+    "url": "http://github.com/nirinasp/nforce/issues"
   },
   "scripts": {
     "preversion": "npm test",

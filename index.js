@@ -1125,8 +1125,9 @@ Connection.prototype._apiRequest = function(opts, callback) {
     if(res.headers && res.headers['content-encoding'] === 'gzip' && body) {
       //  response is compressed - decompress it
       zlib.gunzip(body, function(err, decompressed) {
-        if (err) return resolver.reject(err);
-        body = decompressed;
+        if (!err) {
+          body = decompressed;
+        }
         processResponse();
       });
     } else {
